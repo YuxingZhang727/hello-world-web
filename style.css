@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#myButton {
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#myButton:hover {
+    background-color: darkred; /* Darkens when you hover over it */
+}
