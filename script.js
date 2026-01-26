@@ -1,8 +1,9 @@
-// 1. Find the button in the HTML
-const btn = document.getElementById('myButton');
+const myButton = document.getElementById('myButton');
+const content = document.getElementById('content');
 
-// 2. Add an "event listener" to wait for the click
-btn.addEventListener('click', () => {
-    // 3. Print the message to the console
-    console.log("Hello world");
+myButton.addEventListener('click', function() {
+    content.style.display = 'flex';
+
+    myButton.style.display = 'none';
+
 });

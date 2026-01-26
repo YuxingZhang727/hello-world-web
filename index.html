@@ -6,22 +6,35 @@
 </head>
 <body>
     <button id="myButton">Hello, World!</button>
-    <script src="script.js"></script>
-    <img src="image.jpg" alt="my image">
-    <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/DEjQK3vU0Hw?si=dJQYCWfWMA6Endtq" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-    </iframe>
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-   
+    <div id="content" style="display: none;">
+        
+        <div class = "item">
+            <h3>Image</h3>    
+            <img src="image.jpg" alt="my image">
+        </div>
+        
+        <div class="item">
+            <h3>Video</h3> 
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/DEjQK3vU0Hw?si=dJQYCWfWMA6Endtq" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+        <div class="item">
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+    </div><script src="script.js"></script>
 </body>
 </html>
